@@ -15,7 +15,7 @@ function agregarAmigo(){
     }
 }
 function mostrarListaAmigos(){
-    let listaAmigos = document.querySelector("#listaAmigos").value;
+    let listaAmigos = document.querySelector("#listaAmigos");
     listaAmigos.innerHTML = "";
     for(let index = 0; index < amigos.length;index++)
     {
