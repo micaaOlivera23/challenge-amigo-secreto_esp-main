@@ -26,7 +26,7 @@ function mostrarListaAmigos(){
     }
 }
 function sortearAmigo(){
-    if (amigos === 0){
+    if (amigos.legth === 0){
         alert("Por favor , ingrese un nombre");
     }
     else{
